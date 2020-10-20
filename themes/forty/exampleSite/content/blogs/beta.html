@@ -15,9 +15,6 @@ title: "Movies! - Comparing IMDB Data with Spielberg and Burton"
 
 <p>Let us look at data from IMDB and see whether the IMDB rating for Steven Spielberg and Tim Burton are the same or not. Below we have the mean and confidence interval for the two directors. We will try to recreate this.</p>
 <p>we will run a hypothesis test to check for independence.</p>
-<blockquote>
-<p>Before anything, write down the null and alternative hypotheses, as well as the resulting test statistic and the associated t-stat or p-value. At the end of the day, what do you conclude?</p>
-</blockquote>
 <ul>
 <li><p>H<sub>0</sub>: Spielberg and Burton have the same mean IMDB ratings, i.e. imdb_rating_Spielberg - imdb_rating_Burton = 0</p></li>
 <li><p>H<sub>a</sub>: Spielberg and Burton have different mean IMDB ratings, i.e. imdb_rating_Spielberg - imdb_rating_Burton 0</p></li>
@@ -103,7 +100,7 @@ ggplot(plot_movie, aes(x = director,
        y = &quot;Mean IMDB ratings&quot;)+
   theme_bw()+
   theme(legend.position = &quot;none&quot;)</code></pre>
-<p><img src="/blogs/beta_files/figure-html/unnamed-chunk-1-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="themes/forty/exampleSite/content/blogs/beta_files/figure-html/unnamed-chunk-1-1.png" width="648" style="display: block; margin: auto;" /></p>
 <p>Now let us test for independence, first using t.test, and then using the infer package.</p>
 <pre class="r"><code>movies_filtered &lt;- movies %&gt;% 
   #We filter for Steven Spielberg and Tim Burton only
@@ -161,12 +158,12 @@ ggplot(data = null_dist_movies, aes(x = stat)) +
        subtitle = &quot;Expected differences in mean ratings between the two directors \nin 1000 random samples&quot;,
        y= &quot;Frequency&quot;,
        x = &quot;Difference in means&quot;)</code></pre>
-<p><img src="/blogs/beta_files/figure-html/unnamed-chunk-5-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="themes/forty/exampleSite/content/blogs/beta_files/figure-html/unnamed-chunk-5-1.png" width="648" style="display: block; margin: auto;" /></p>
 <p>Let us now visualize where our observed difference in mean is on this and find the p-value.</p>
 <pre class="r"><code># Visualizes where our observed mean is relative to the data generated above
 null_dist_movies %&gt;% visualize() +
   shade_p_value(obs_stat = obs_diff_movies, direction = &quot;two-sided&quot;)</code></pre>
-<p><img src="/blogs/beta_files/figure-html/unnamed-chunk-6-1.png" width="648" style="display: block; margin: auto;" /></p>
+<p><img src="themes/forty/exampleSite/content/blogs/beta_files/figure-html/unnamed-chunk-6-1.png" width="648" style="display: block; margin: auto;" /></p>
 <pre class="r"><code># Calculates the p-value of the observed value relative to the data generated above
 null_dist_movies %&gt;%
   get_p_value(obs_stat = obs_diff_movies, direction = &quot;two_sided&quot;)</code></pre>

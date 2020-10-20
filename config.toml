@@ -180,9 +180,9 @@ disqusShortname = ""
 
     [[params.contact.address]]
     title = "Address"
-    street = "ivor Court - 122"
+    street = "Ivor Court - 122"
     city = "London, NW1 6BS"
-    country = "united Kingdom"
+    country = "United Kingdom"
 
   # Footer section
   [params.footer]

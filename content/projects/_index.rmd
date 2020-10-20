@@ -2,10 +2,8 @@
 date: "2017-10-31T22:27:21-05:00"
 draft: false
 image: insights.jpg
-slug: blogs
+slug: insights
 title: Insights
 ---
 
-
-
-<p>My work from the Data Analytics class at LBS.</p>
+My work from the Data Analytics class at LBS.

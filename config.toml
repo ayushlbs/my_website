@@ -83,7 +83,7 @@ disqusShortname = ""
     # the 'static/img' folder.
     title = "Hi, my name is Ayush Agrawal"
     subtitle = "This site is contains some interesting insights from my Data Analytics class at LBS"
-    buttonText = "INSIGHTS"
+    buttonText = "INSIGHTS" 
 
 
   # Tiles Section
@@ -92,40 +92,40 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic01.jpg"
-      url = "blogs/ipsum"
+      title = "Cycles!"
+      subtitle = "Analysis of TFL Bike Data"
+      image = "alpha.jpg"
+      url = "blogs/alpha"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic02.jpg"
-      url = "blogs/homework1"
+      title = "Movies!"
+      subtitle = "Comparing IMDB Data with Spielberg and Burton"
+      image = "beta.jpg"
+      url = "blogs/beta" 
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
-      url = "blogs/magna"
+      title = "Pay!"
+      subtitle = "Case based Analysis of Gender Pay Gap"
+      image = "gamma.png"
+      url = "blogs/gamma"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
+      title = "Drink!"
+      subtitle = "Analysing Beer Consumption across the world"
+      image = "delta.jpg"
+      url = "blogs/delta"
 
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
+   # [[params.tiles.showcase]]
+   #   title = "Consequat"
+   #   subtitle = "Ipsum Dolor Sit Amet"
+   #  image = "pic05.jpg"
+   #    url = "blogs/ipsum"
 
-    [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
+   # [[params.tiles.showcase]]
+   #   title = "Etiam"
+   #   subtitle = "Feugiat Amet Tempus"
+   #   image = "pic06.jpg"
+   #   url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -138,14 +138,13 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+    title = "About Me"
+    subtitle = """My name is Ayush Agrawal.
+    I am currently studying Masters in Financial Analysis at London Business School. Prior to this, I did my undergraduate from Narsee Monjee College of Commerce and Economics in India, where I headed the Planning Forum Jr. Club. I have also completed two levels of the CFA Program.
+    I love working with numbers and learning about various businesses. I am also a passionate reader of human motivations and psychology.
+    I have interned in consulting and a start-up and my interests lie in taking beautiful photographs, playing games, and curating music playlists for every mood."""
+    buttonText = "Get to Top"
+   # url = "blogs"
 
 
   # Contact section
@@ -176,11 +175,11 @@ disqusShortname = ""
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(0044) 7737725097"
+    phone = "+44 77 377 25097"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Ivor Court - 122"
+    street = "London Business School"
     city = "London, NW1 6BS"
     country = "United Kingdom"
 

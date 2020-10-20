@@ -50,7 +50,7 @@ Let us look at data from IMDB and see whether the IMDB rating for Steven Spielbe
 
 
 we will run a hypothesis test to check for independence.
-
+git a
 
 * H~0~: Spielberg and Burton have the same mean IMDB ratings, i.e. imdb_rating_Spielberg - imdb_rating_Burton = 0
 

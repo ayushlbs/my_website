@@ -72,9 +72,9 @@ disqusShortname = ""
     #  url = "blogs"
 
     # Button Style 2
-   # [[params.navigation.button2]]
-    #  name = "Log In"
-     # url = "#"
+    # [[params.navigation.button2]]
+    #  name = "My Resume"
+    #  url = "Ayush_CV_LBS.pdf"
 
 
   # Banner section
@@ -143,8 +143,8 @@ disqusShortname = ""
     I am currently studying Masters in Financial Analysis at London Business School. Prior to this, I did my undergraduate from Narsee Monjee College of Commerce and Economics in India, where I headed the Planning Forum Jr. Club. I have also completed two levels of the CFA Program.
     I love working with numbers and learning about various businesses. I am also a passionate reader of human motivations and psychology.
     I have interned in consulting and a start-up and my interests lie in taking beautiful photographs, playing games, and curating music playlists for every mood."""
-    buttonText = "Get to Top"
-   # url = "blogs"
+    buttonText = "My Resume"
+    url = "Ayush_CV_LBS.pdf"
 
 
   # Contact section

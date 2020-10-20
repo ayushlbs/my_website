@@ -7,9 +7,13 @@ description: ""
 draft: false
 image: pic10.jpg
 keywords: ""
-slug: homework1
+slug: ipsum
 title: homework1
 
+
+
+---
+title: "Session 2: Homework 1"
 author: "Your name goes here"
 date: "`r Sys.Date()`"
 output:

@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://ayushsportfolio.netlify.app/"
+baseURL = "https://oliviawang2.netlify.app/"
 languageCode = "en-us"
 title = "Portfolio Website of Ayush Agrawal"
 theme = "forty"

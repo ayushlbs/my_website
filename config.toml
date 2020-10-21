@@ -95,25 +95,25 @@ disqusShortname = ""
       title = "Cycles!"
       subtitle = "Analysis of TFL Bike Data"
       image = "alpha.jpg"
-      url = "blogs/alpha"
+      url = "blogs/blog1"
 
     [[params.tiles.showcase]]
       title = "Movies!"
       subtitle = "Comparing IMDB Data with Spielberg and Burton"
       image = "beta.jpg"
-      url = "blogs/beta" 
+      url = "blogs/blog2" 
 
     [[params.tiles.showcase]]
       title = "Pay!"
       subtitle = "Case based Analysis of Gender Pay Gap"
       image = "gamma.png"
-      url = "blogs/gamma"
+      url = "blogs/blog3"
 
     [[params.tiles.showcase]]
       title = "Drink!"
       subtitle = "Analysing Beer Consumption across the world"
       image = "delta.jpg"
-      url = "blogs/delta"
+      url = "blogs/blog4"
 
    # [[params.tiles.showcase]]
    #   title = "Consequat"

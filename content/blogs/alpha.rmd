@@ -5,7 +5,6 @@ categories:
 date: "2017-10-31T22:26:09-05:00"
 description: Analysis of TFL Bike Data
 draft: false
-image: pic01.jpg
 keywords: ""
 slug: alpha
 title: "Cycles! - Analysis of TFL Bike Data"
@@ -90,7 +89,7 @@ ggplot(bike_1520, aes(x = bikes_hired))+
   geom_density()+
   # Splits into grid with years as rows and months as columns
   facet_grid(rows = vars(year), cols = vars(month))+
-  theme_minimal()+
+  theme_dark()+
   labs(title = "Distribution of bikes hired per month",
        x = "Bike Rentals",
        y = "")+
@@ -155,7 +154,7 @@ ggplot(bike_ribbon, aes(x = month,
        x = "",
        y = "Bike rentals",
        caption = "Source: TfL, London Data Store")+
-  theme_minimal()
+  theme_dark()
   
 
 
@@ -219,7 +218,7 @@ ggplot(bike_ribbon_wk, aes(x = week,
        x = "Week",
        y = "",
        caption = "Source: TfL, London Data Store")+
-  theme_minimal()
+  theme_dark()
 
 ```
 
